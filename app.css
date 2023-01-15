@@ -21,3 +21,14 @@ p {
 .navbar {
     background-color: #219EBC;
 }
+
+.mainPic {
+    border-color: #FB8500 !important;
+}
+
+@media (max-width: 775px) {
+    .mainPic {
+        width: 400px;
+        height: 400px;
+    }
+}
