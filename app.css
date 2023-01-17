@@ -2,12 +2,8 @@ body {
     background-color: #023047;
 }
 
-h1 {
+h1, h2 {
     color: #FB8500;
-}
-
-h2 {
-    color: #FFB703;
 }
 
 a {
@@ -15,15 +11,26 @@ a {
 }
 
 p {
-    color: #8b8c89;
+    color: #FFB703;
+}
+
+footer div button {
+    background-color: #023047 !important;
+    border-color: #FB8500 !important;
+    outline-color: #FB8500 !important;
 }
 
 .navbar {
     background-color: #219EBC;
 }
 
+.nav-link {
+    color: #FFB703;
+}
+
 .mainPic {
     border-color: #FB8500 !important;
+   // width="650px" height="500px"
 }
 
 .banner {
@@ -49,9 +56,30 @@ p {
     border-bottom-right-radius: 0px;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 3000px) {
+    .mainPic {
+        width: 850px;
+        height: 850px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .mainPic {
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 1225px) {
+    .mainPic {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 825px) {
     .mainPic {
         width: 400px;
-        height: 400px;
+        height: 350px;
     }
 }
